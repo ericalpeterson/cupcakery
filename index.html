@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Erica's Cupcakery</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  
+  <!--
+
+    Wow! What do you want to build?
+
+    You have so many possibilities right now... Looking for something to kick off?
+    How about a simple folio page to show off everything you're going to make!
+   
+  -->
+  
+  <button onclick="myFunction()" id="myButton"><h1> The #1 Bakery in PA!</h1></button>
+  
+
+  
+  <div class= "photo">
+  <img src="http://i66.tinypic.com/331m0l0.jpg" width="200" height="200">
+  </div>
+  
+  <h3> Menu </h3>
+  
+  <div class= "header">
+    <ul>
+      <div class="popup" onclick="myFunction()"><li>Frosted Creamcheese Cupcake $2.99 </li>
+  <span class="popuptext" id="myPopup">Delicious!</span>
+</div>
+      <li>Pumpkin Spice Cupcake $2.99 </li>
+      <li>Caramel Brulee Cupcake $2.99</li>
+    </ul>
+  </div>
+  
+  <div class="checkout">
+<h1 class="title">Checkout</h1>
+<p class="price" data-price="2.99">$2.99 per Cupcake</p>
+<p class="description">Quantity:</p>
+<input type="text" class="quantity" value="1">
+
+	<p class="total">Total: <span id="total">$2.99</span></p>
+
+	<button class="btn">Submit Order</button>
+
+</div>
+  
+  <!-- Scripts -->
+  <script src="scripts/index.js"></script>
+</body>
+</html>
